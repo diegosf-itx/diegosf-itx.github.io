@@ -3,47 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad - CGA</title>
+    <title>Política de Privacidad Profesional - CGA</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f9f9f9; }
-        .container { background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        h2 { color: #2980b9; margin-top: 25px; }
-        p, ul { margin-bottom: 15px; }
-        .highlight { background: #e8f4fd; padding: 10px; border-left: 4px solid #3498db; }
+        :root {
+            --primary: #2c3e50;
+            --secondary: #34495e;
+            --accent: #3498db;
+            --text: #444;
+            --light: #ecf0f1;
+        }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.8; color: var(--text); background-color: #f4f7f6; margin: 0; padding: 0; }
+        .wrapper { max-width: 900px; margin: 40px auto; background: #fff; padding: 60px; border-radius: 5px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        h1 { color: var(--primary); font-size: 2.5em; border-bottom: 3px solid var(--accent); padding-bottom: 15px; margin-bottom: 30px; }
+        h2 { color: var(--secondary); margin-top: 40px; border-left: 5px solid var(--accent); padding-left: 15px; }
+        h3 { color: var(--primary); margin-top: 25px; }
+        p, li { font-size: 1.05em; text-align: justify; }
+        .highlight-box { background: var(--light); padding: 25px; border-radius: 8px; margin: 20px 0; border: 1px solid #ddd; }
+        footer { margin-top: 50px; font-size: 0.9em; color: #888; text-align: center; border-top: 1px solid #eee; padding-top: 20px; }
+        .contact-info { background: #eef9ff; padding: 20px; border-radius: 5px; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Política de Privacidad - Aplicación CGA</h1>
-        <p><strong>Última actualización:</strong> 10 de febrero de 2026</p>
+    <div class="wrapper">
+        <h1>Política de Privacidad</h1>
+        <p><strong>Versión 1.2 | Efectiva a partir de:</strong> 10 de febrero de 2026</p>
 
-        <p>Esta Política de Privacidad describe cómo la aplicación <strong>CGA</strong> recopila, utiliza y comparte su información cuando utiliza nuestros servicios para la gestión empresarial.</p>
+        <section>
+            <p>La presente Política de Privacidad establece los términos en que <strong>CGA</strong> (en adelante, "la Aplicación"), diseñada para la gestión de dispositivos PDA en entornos corporativos, usa y protege la información que es proporcionada por sus usuarios. Estamos comprometidos con la seguridad de los datos de sus usuarios y el cumplimiento de los estándares internacionales de protección de datos.</p>
+        </section>
 
-        <h2>1. Información que Recopilamos</h2>
-        <p>Para el correcto funcionamiento de la gestión empresarial, la aplicación puede requerir acceso a:</p>
+        <h2>1. Alcance de la Aplicación</h2>
+        <p>CGA es una herramienta de uso profesional destinada exclusivamente a la gestión operativa, logística y administrativa de la empresa. Su propósito es optimizar el flujo de trabajo mediante la digitalización de procesos manuales en dispositivos móviles y terminales tipo PDA.</p>
+
+        <h2>2. Información Recopilada y Tratamiento</h2>
+        <p>Nuestra aplicación podrá recoger información de carácter técnico y operativo necesaria para la ejecución de sus funciones:</p>
         <ul>
-            <li><strong>Cámara:</strong> Se utiliza exclusivamente para capturar fotografías de documentos físicos.</li>
-            <li><strong>Almacenamiento:</strong> Para guardar temporalmente las imágenes antes de su envío.</li>
+            <li><strong>Información del Dispositivo:</strong> Modelo de PDA, versión del sistema operativo e identificadores únicos de dispositivo para asegurar la compatibilidad y licencias.</li>
+            <li><strong>Registros de Actividad:</strong> Logs de errores y tiempos de respuesta para garantizar la estabilidad del sistema empresarial.</li>
+            <li><strong>Datos de Usuario:</strong> Credenciales de acceso proporcionadas por su empresa para la autenticación en el servidor central.</li>
         </ul>
 
-        <div class="highlight">
-            <h2>2. Uso del Permiso de Cámara</h2>
-            <p>La aplicación <strong>CGA</strong> solicita acceso a la cámara con el único propósito de digitalizar documentos de la empresa (facturas, albaranes, reportes). Las imágenes capturadas son enviadas directamente a un <strong>servidor web seguro</strong> propiedad de la empresa o gestionado por ella.</p>
+        <div class="highlight-box">
+            <h2>3. Uso de Periféricos: Cámara y Captura de Imágenes</h2>
+            <p>Para cumplir con sus funciones primordiales de gestión documental, la Aplicación requiere acceso explícito a la <strong>Cámara del dispositivo</strong>. El uso de este permiso se rige por las siguientes cláusulas:</p>
+            <ul>
+                <li><strong>Finalidad:</strong> La cámara se utiliza únicamente para la captura de imágenes de documentos físicos (facturas, albaranes, notas de entrega, códigos de barras).</li>
+                <li><strong>Procesamiento:</strong> Las imágenes capturadas se procesan localmente de forma temporal para su optimización y compresión.</li>
+                <li><strong>Transmisión:</strong> Los archivos resultantes son enviados de forma encriptada a través de protocolos seguros (TLS/SSL) al servidor web corporativo designado por la empresa.</li>
+                <li><strong>Almacenamiento Local:</strong> La Aplicación no almacena de forma permanente las fotografías en la galería pública del dispositivo para evitar fugas de información sensible.</li>
+            </ul>
         </div>
 
-        <h2>3. Transferencia de Datos</h2>
-        <p>Los documentos fotografiados se suben vía protocolo seguro (HTTPS) a nuestros servidores. No compartimos estas imágenes con terceros, agencias de publicidad ni otras entidades ajenas a la gestión operativa de su empresa.</p>
+        <h2>4. Seguridad de los Datos</h2>
+        <p>Estamos altamente comprometidos para cumplir con el compromiso de mantener su información segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado. El flujo de datos entre la PDA y el servidor web se realiza bajo entornos de red controlados y cifrados.</p>
 
-        <h2>4. Seguridad</h2>
-        <p>Nos tomamos muy en serio la seguridad de sus datos empresariales. Implementamos medidas técnicas y organizativas para proteger la información contra accesos no autorizados o pérdidas.</p>
+        <h2>5. Transferencia a Terceros</h2>
+        <p>La Aplicación <strong>CGA</strong> no vende, cede ni distribuye la información recopilada a terceros sin su consentimiento, salvo que sea requerido por un juez con una orden judicial. La información capturada pertenece estrictamente al ámbito de la relación laboral entre el usuario y la empresa titular del servidor web.</p>
 
-        <h2>5. Derechos del Usuario</h2>
-        <p>Como usuario, usted tiene derecho a acceder, rectificar o eliminar la información subida, contactando con el administrador de sistemas de su organización o a través de nuestro canal de soporte.</p>
+        <h2>6. Limitación de Responsabilidad</h2>
+        <p>Dado que la Aplicación actúa como un puente entre la captura física y el almacenamiento en el servidor web de la empresa, CGA no se hace responsable del tratamiento posterior que la empresa cliente realice con dichos datos una vez alojados en su infraestructura propia.</p>
 
-        <h2>6. Contacto</h2>
-        <p>Si tiene preguntas sobre esta política, puede contactarnos en:</p>
-        <p>Email: <strong>tu-email@ejemplo.com</strong></p>
+        <h2>7. Control de su Información Personal</h2>
+        <p>En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a nuestra aplicación. Si el sistema requiere permisos de cámara o ubicación, el usuario podrá denegarlos, aunque esto podría afectar la operatividad total de las funciones de gestión de la PDA.</p>
+
+        <div class="contact-info">
+            <h2>8. Contacto y Soporte Técnico</h2>
+            <p>Si tiene alguna duda sobre esta Política de Privacidad o el tratamiento de sus datos en el sistema CGA, puede ponerse en contacto con nuestro departamento de cumplimiento:</p>
+            <p><strong>Departamento de IT / Soporte CGA</strong><br>
+            Email: <a href="mailto:diegosf@gmail.com">diegosf@gmail.com</a><br>
+            Dirección: Área Industrial, Sector de Gestión de Datos.</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 CGA Management System. Todos los derechos reservados.<br>
+            Esta política puede ser actualizada periódicamente para reflejar cambios legales o funcionales.</p>
+        </footer>
     </div>
 </body>
 </html>
